@@ -50,7 +50,7 @@ function MemePage() {
     // Add more meme templates here
   ];
 
-  const generateMemeUrl = "http://localhost:5004/api/generateMeme";
+  const generateMemeUrl = "https://innotech-11z3.onrender.com/api/generateMeme";
 
   const handleGenerateMeme = async () => {
     if (selectedMeme) {
