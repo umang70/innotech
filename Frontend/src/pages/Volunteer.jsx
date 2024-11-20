@@ -3,7 +3,7 @@ import React from 'react';
 import shiv from "../images/shivam.png";
 import umangg from "../images/umang.jpg";
 import tash from "../images/tashi.jpg";
-import shikh from "../images/Shikhar.jpg"
+import shikh from "../images/shikhar.jpg"
 
 
 const founders = [
