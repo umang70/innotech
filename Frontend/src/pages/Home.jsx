@@ -25,7 +25,7 @@ const Home = () => {
       <div className='home-page'>
         <div className="helpline-container">
         <h3 className="marquee" style={{ color: 'crimson' }}>
-          Helpline Numbers under the Tele-MANAS Programme : ☎️ 14416 or 📞 1-800 891 4416
+           BALANCE BRIGADE TEAM Pr
         </h3>
       </div>
         <div className='home-allcontent'>

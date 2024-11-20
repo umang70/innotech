@@ -1391,15 +1391,8 @@ button[type="submit"]:hover {
   transform: scale(1.1);
 }
 
-.founder-image {
+.founder-image img {
   width: 100%;
-  height: 100%;
-  object-fit: contain; /* Maintain image aspect ratio and fit it within the container */
-  max-height: 100%; /* Ensure the image doesn't exceed the container's height */
-  max-width: 100%; /* Ensure the image doesn't exceed the container's width */
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .founder-details {
@@ -1414,7 +1407,7 @@ button[type="submit"]:hover {
     255,
     255,
     0.8
-  ); /* Use rgba with the desired color and opacity */
+  ); 
   display: flex;
   flex-direction: column;
   justify-content: center;

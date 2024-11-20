@@ -11,6 +11,7 @@ const Footer = () => {
           <a href="Volunteer">About</a>
           <a href="Articles">Resources</a>
           <a href="ContactUs">Contact</a>
+          <h3>Designed by Umang</h3>
         </div>
         <div className="footer-copyright">
           &copy; {currentYear} SUKOON. All rights reserved.

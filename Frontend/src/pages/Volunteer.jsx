@@ -1,27 +1,36 @@
 import React from 'react';
+//import Shivam from 'shivam.png';
+import shiv from "../images/shivam.png";
+import umangg from "../images/umang.jpg";
+import tash from "../images/tashi.jpg";
+import shikh from "../images/Shikhar.jpg"
+
 
 const founders = [
   {
-    name: 'Ananya Shanker',
-    role: 'Front-end Team', 
+    name: 'UMANG SHARMA',
+    role: 'Full Stack Developer , Designer ', 
+    image:  umangg
+ ,
   
-    image: 'https://i.pinimg.com/564x/29/77/fe/2977fe836b3ea15ec686d5031006f9ef.jpg', // Replace with actual image file
-  },
-  {
-    name: 'Shaheera Fatima',
-    role: 'Front-end Team',
-    image: 'https://i.pinimg.com/236x/69/5c/3c/695c3cee049e454e65b9c90c6ae1a29f.jpg', // Replace with actual image file
+
   },
 
   {
-    name: 'Mansi Rawat',
-    role: 'Front-end & Back-end Team',
-    image: 'https://i.pinimg.com/236x/43/97/2e/43972ee941de6b988bebbc64741a1b5c.jpg', // Replace with actual image file
+    name: 'Shivam Gupta',
+    role: 'Front-end Developer',
+    image: shiv , // Replace with actual image file
+  },
+
+  {
+    name: 'Tashi Verma',
+    role: 'Front-end Developer',
+    image: tash, // Replace with actual image file
   },
   {
-    name: 'Aayushi',
-    role: 'Front-end & Back-end Team',
-    image: 'https://i.pinimg.com/564x/c3/0d/06/c30d0644771cbcb628019836ed319afc.jpg', // Replace with actual image file
+    name: 'Shikar Anand',
+    role: 'Content Writer',
+    image: shikh ,// Replace with actual image file
   },
 ];
 
@@ -33,8 +42,12 @@ const Volunteer = () => {
         {founders.map((founder, index) => (
           <div key={index} className="founder">
             <div className="founder-image">
-              <img src={founder.image} alt={founder.name} />
+              { <img src={founder.image} alt={founder.name} /> 
+              }
+             
+             
             </div>
+            
             <div className="founder-details">
               <h3>{founder.name}</h3>
               <p>{founder.role}</p>
